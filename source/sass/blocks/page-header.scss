@@ -1,0 +1,131 @@
+@media (max-width: $desktopXS - 1px) {
+  .page-header__tel {
+    order: 1;
+    margin: 90px auto;
+  }
+}
+
+.page-header__wrap {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 8;
+  transform: translateX(-50%);
+  padding: 24px 0;
+
+  transition: all 0.2s linear;
+}
+
+.page-header__wrap--scroll {
+  padding: 8px 0;
+  background-color: rgba(243, 243, 245, 0.9);
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+
+.page-header__wrap .page-header__logo {
+  width: 123px;
+  height: auto;
+  margin-right: auto;
+  line-height: 0;
+
+  transition: all 0.2s linear;
+}
+
+.page-header__center {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-header__tel {
+  position: relative;
+  padding: 5px 0;
+  font-size: 16px;
+  font-weight: 100;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    height: 1px;
+    background-color: $text-color;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: all 0.2s linear;
+  }
+}
+
+.page-header__tel:hover {
+
+  &::after {
+    transform: scaleX(1);
+  }
+}
+
+.page-header__tel .page-header__tel-i {
+  position: absolute;
+  top: 50%;
+  left: -45px;
+  transform: translateY(-50%);
+  @include retina-sprite($telephone-red-group);
+
+  transition: all 0.2s linear;
+}
+
+.page-header__tel:hover .page-header__tel-i {
+  transform: translateY(-50%) scale(1.2);
+}
+
+
+@media (min-width: $tablet) {
+  .page-header__wrap .page-header__logo {
+    width: 150px;
+  }
+}
+
+
+@media (min-width: $desktopXS) {
+  .page-header__wrap {
+    padding: 24px 0;
+  }
+
+
+  .page-header__wrap .page-header__logo {
+    width: 180px;
+  }
+
+  .page-header__lang {
+    order: 3;
+    margin-left: 50px;
+  }
+
+  .page-header__tel {
+    align-self: flex-end;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+  }
+
+  .page-header__wrap--scroll {
+    padding: 0;
+  }
+
+  .page-header__wrap--scroll .page-header__tel {
+    margin-bottom: 0;
+  }
+
+  .page-header__wrap--scroll .page-header__logo {
+    width: 150px;
+  }
+}

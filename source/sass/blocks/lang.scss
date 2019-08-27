@@ -1,0 +1,14 @@
+.lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: $color-accent;
+}

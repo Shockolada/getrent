@@ -1,0 +1,39 @@
+@import "helpers/table-of-contents.scss";
+@import "helpers/variables.scss";
+@import "mixins/sprite.scss";
+
+
+@import "basic/fonts.scss";
+@import "helpers/pixel-perfect.scss";
+@import "basic/normalize.scss";
+@import "basic/scaffolding.scss";
+@import "basic/container.scss";
+
+@import "blocks/button.scss";
+@import "blocks/link.scss";
+@import "blocks/burger-btn.scss";
+
+@import "blocks/input.scss";
+@import "blocks/select.scss";
+@import "blocks/lang.scss";
+@import "blocks/title.scss";
+@import "blocks/top-bg.scss";
+@import "blocks/page-header.scss";
+@import "blocks/menu-mobile.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/multiselect.scss";
+@import "blocks/form.scss";
+@import "blocks/reserve.scss";
+@import "blocks/cars.scss";
+@import "blocks/car.scss";
+@import "blocks/benefits.scss";
+@import "blocks/about.scss";
+@import "blocks/contacts.scss";
+@import "blocks/call-back.scss";
+@import "blocks/map.scss";
+@import "blocks/conditions.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/social.scss";
+
+
+@import "blocks/reserv-settings.scss";

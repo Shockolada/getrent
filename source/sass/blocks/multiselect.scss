@@ -1,0 +1,20 @@
+.multiselect__list {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.multiselect__list li {
+  padding: 0 15px;
+  list-style: none;
+}
+
+.multiselect__list input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}

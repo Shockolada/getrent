@@ -1,0 +1,134 @@
+.form {
+  padding: 30px 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.form__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.form__item {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.form__items-align-l {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form__point {
+  width: 100%;
+}
+
+.form__date {
+  width: 63%;
+}
+
+.form__time {
+  width: 35%;
+}
+
+.form__btn {
+  width: 100%;
+  padding: 15px 15px;
+  border: 1px solid $btn-color;
+  font-size: 16px;
+  font-weight: 100;
+  color: $btn-color;
+  background-color: transparent;
+
+  transition: all 0.2s linear;
+
+  &:hover,
+  &:focus {
+    background-color: $color-accent;
+    color: #ffffff;
+  }
+}
+
+.form__btn span {
+  position: relative;
+  display: inline-block;
+  min-width: 130px;
+  text-align: left;
+
+}
+
+.form__btn .form__btn-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  fill: $btn-color;
+
+  transition: all 0.2s linear;
+}
+
+.form__btn:hover .form__btn-icon,
+.form__btn:focus .form__btn-icon {
+  right: -10px;
+  fill: #ffffff;
+}
+
+@media (min-width: $desktopXS) {
+  .form {
+    padding: 20px 70px;
+    padding-top: 40px;
+  }
+
+  .form__title {
+    margin-bottom: 45px;
+  }
+
+  .form__items-align {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__items-align-l {
+    width: 60%;
+  }
+
+  .form__items-align-r {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 38%;
+  }
+
+  .form__item {
+    margin-bottom: 25px;
+  }
+
+  .form__point {
+    width: 44%;
+  }
+
+  .form__date {
+    width: 27%;
+  }
+
+  .form__time {
+    width: 23%;
+  }
+
+  .form__cars {
+    width: 100%;
+  }
+
+  .form__btn {
+    width: 59%;
+    // height: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+  }
+
+  .form__btn span {
+    min-width: 170px;
+  }
+}

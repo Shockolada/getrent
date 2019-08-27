@@ -1,0 +1,17 @@
+.about {
+  margin-bottom: 50px;
+}
+
+.about p {
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@media (min-width: $tablet) {
+  .about {
+    margin-bottom: 90px;
+  }
+
+
+}

@@ -1,0 +1,49 @@
+@media (max-width: $desktopXS - 1px) {
+  .menu-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    width: 100vW;
+    min-height: 100vH;
+    padding: 20px 30px;
+    transform: translateY(-120%);
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-mobile--active {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media (min-width: $tablet) and (max-width: $desktopXS - 1px)  {
+  .menu-mobile {
+    left: auto;
+    right: 0;
+    width: 300px;
+    padding: 25px 30px;
+    transform: translateX(-1024px) translateY(0);
+  }
+
+  .menu-mobile--active {
+    transform: translateX(0) translateY(0);
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media (min-width: $desktopXS) {
+  .menu-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

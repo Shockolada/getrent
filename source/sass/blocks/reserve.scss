@@ -1,0 +1,14 @@
+.reserve {
+  margin-bottom: 20px;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  
+}
+
+@media (min-width: $desktopXS) {
+  .reserve {
+    padding-top: 290px;
+    padding-bottom: 200px;
+    margin-bottom: 85px;
+  }
+}

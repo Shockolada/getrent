@@ -1,0 +1,96 @@
+.benefits__wrap {
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.benefits__list {
+  margin: 0;
+  margin-bottom: -50px;
+  padding: 0;
+  list-style: none;
+}
+
+.benefits__list li {
+  position: relative;
+  margin-bottom: 35px;
+  padding-top: 120px;
+}
+
+.benefits__subtitle {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.benefits__list p {
+  margin: 0;
+  text-align: center;
+}
+
+.benefits__icon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background-color: $color-accent;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+  }
+}
+
+.benefits__icon--loyal::after {
+  @include retina-sprite($percentage-group);
+}
+
+.benefits__icon--dur::after {
+  @include retina-sprite($appointment-group);
+}
+
+.benefits__icon--driver::after {
+  @include retina-sprite($delivery-man-group);
+}
+
+.benefits__icon--cheep::after {
+  @include retina-sprite($auto-sale-group);
+}
+
+@media (min-width: $tablet) {
+  .benefits__wrap {
+    margin-bottom: 70px;
+    padding-top: 130px;
+    padding-bottom: 70px;
+  }
+
+  .benefits__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -90px;
+  }
+
+  .benefits__list li {
+    width: 43%;
+    padding-top: 135px;
+    // padding-right: 40px;
+    margin-bottom: 90px;
+  }
+
+  .benefits__subtitle {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+}
+

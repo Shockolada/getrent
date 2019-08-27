@@ -1,0 +1,442 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$appointment-name: 'appointment';
+$appointment-x: 64px;
+$appointment-y: 0px;
+$appointment-offset-x: -64px;
+$appointment-offset-y: 0px;
+$appointment-width: 52px;
+$appointment-height: 52px;
+$appointment-total-width: 177px;
+$appointment-total-height: 171px;
+$appointment-image: '../images/sprites/sprite.png';
+$appointment: (64px, 0px, -64px, 0px, 52px, 52px, 177px, 171px, '../images/sprites/sprite.png', 'appointment', );
+$auto-sale-name: 'auto-sale';
+$auto-sale-x: 50px;
+$auto-sale-y: 60px;
+$auto-sale-offset-x: -50px;
+$auto-sale-offset-y: -60px;
+$auto-sale-width: 52px;
+$auto-sale-height: 41px;
+$auto-sale-total-width: 177px;
+$auto-sale-total-height: 171px;
+$auto-sale-image: '../images/sprites/sprite.png';
+$auto-sale: (50px, 60px, -50px, -60px, 52px, 41px, 177px, 171px, '../images/sprites/sprite.png', 'auto-sale', );
+$automat-name: 'automat';
+$automat-x: 158px;
+$automat-y: 34px;
+$automat-offset-x: -158px;
+$automat-offset-y: -34px;
+$automat-width: 18px;
+$automat-height: 22px;
+$automat-total-width: 177px;
+$automat-total-height: 171px;
+$automat-image: '../images/sprites/sprite.png';
+$automat: (158px, 34px, -158px, -34px, 18px, 22px, 177px, 171px, '../images/sprites/sprite.png', 'automat', );
+$car-door-name: 'car-door';
+$car-door-x: 30px;
+$car-door-y: 149px;
+$car-door-offset-x: -30px;
+$car-door-offset-y: -149px;
+$car-door-width: 21px;
+$car-door-height: 22px;
+$car-door-total-width: 177px;
+$car-door-total-height: 171px;
+$car-door-image: '../images/sprites/sprite.png';
+$car-door: (30px, 149px, -30px, -149px, 21px, 22px, 177px, 171px, '../images/sprites/sprite.png', 'car-door', );
+$clock-name: 'clock';
+$clock-x: 124px;
+$clock-y: 0px;
+$clock-offset-x: -124px;
+$clock-offset-y: 0px;
+$clock-width: 26px;
+$clock-height: 26px;
+$clock-total-width: 177px;
+$clock-total-height: 171px;
+$clock-image: '../images/sprites/sprite.png';
+$clock: (124px, 0px, -124px, 0px, 26px, 26px, 177px, 171px, '../images/sprites/sprite.png', 'clock', );
+$delivery-man-name: 'delivery-man';
+$delivery-man-x: 0px;
+$delivery-man-y: 60px;
+$delivery-man-offset-x: 0px;
+$delivery-man-offset-y: -60px;
+$delivery-man-width: 42px;
+$delivery-man-height: 52px;
+$delivery-man-total-width: 177px;
+$delivery-man-total-height: 171px;
+$delivery-man-image: '../images/sprites/sprite.png';
+$delivery-man: (0px, 60px, 0px, -60px, 42px, 52px, 177px, 171px, '../images/sprites/sprite.png', 'delivery-man', );
+$envelope-name: 'envelope';
+$envelope-x: 38px;
+$envelope-y: 120px;
+$envelope-offset-x: -38px;
+$envelope-offset-y: -120px;
+$envelope-width: 26px;
+$envelope-height: 16px;
+$envelope-total-width: 177px;
+$envelope-total-height: 171px;
+$envelope-image: '../images/sprites/sprite.png';
+$envelope: (38px, 120px, -38px, -120px, 26px, 16px, 177px, 171px, '../images/sprites/sprite.png', 'envelope', );
+$mechanic-name: 'mechanic';
+$mechanic-x: 124px;
+$mechanic-y: 68px;
+$mechanic-offset-x: -124px;
+$mechanic-offset-y: -68px;
+$mechanic-width: 25px;
+$mechanic-height: 22px;
+$mechanic-total-width: 177px;
+$mechanic-total-height: 171px;
+$mechanic-image: '../images/sprites/sprite.png';
+$mechanic: (124px, 68px, -124px, -68px, 25px, 22px, 177px, 171px, '../images/sprites/sprite.png', 'mechanic', );
+$percentage-name: 'percentage';
+$percentage-x: 0px;
+$percentage-y: 0px;
+$percentage-offset-x: 0px;
+$percentage-offset-y: 0px;
+$percentage-width: 56px;
+$percentage-height: 52px;
+$percentage-total-width: 177px;
+$percentage-total-height: 171px;
+$percentage-image: '../images/sprites/sprite.png';
+$percentage: (0px, 0px, 0px, 0px, 56px, 52px, 177px, 171px, '../images/sprites/sprite.png', 'percentage', );
+$placeholder-name: 'placeholder';
+$placeholder-x: 158px;
+$placeholder-y: 0px;
+$placeholder-offset-x: -158px;
+$placeholder-offset-y: 0px;
+$placeholder-width: 19px;
+$placeholder-height: 26px;
+$placeholder-total-width: 177px;
+$placeholder-total-height: 171px;
+$placeholder-image: '../images/sprites/sprite.png';
+$placeholder: (158px, 0px, -158px, 0px, 19px, 26px, 177px, 171px, '../images/sprites/sprite.png', 'placeholder', );
+$places-name: 'places';
+$places-x: 0px;
+$places-y: 120px;
+$places-offset-x: 0px;
+$places-offset-y: -120px;
+$places-width: 30px;
+$places-height: 21px;
+$places-total-width: 177px;
+$places-total-height: 171px;
+$places-image: '../images/sprites/sprite.png';
+$places: (0px, 120px, 0px, -120px, 30px, 21px, 177px, 171px, '../images/sprites/sprite.png', 'places', );
+$telephone-red-name: 'telephone-red';
+$telephone-red-x: 0px;
+$telephone-red-y: 149px;
+$telephone-red-offset-x: 0px;
+$telephone-red-offset-y: -149px;
+$telephone-red-width: 22px;
+$telephone-red-height: 22px;
+$telephone-red-total-width: 177px;
+$telephone-red-total-height: 171px;
+$telephone-red-image: '../images/sprites/sprite.png';
+$telephone-red: (0px, 149px, 0px, -149px, 22px, 22px, 177px, 171px, '../images/sprites/sprite.png', 'telephone-red', );
+$telephone-name: 'telephone';
+$telephone-x: 124px;
+$telephone-y: 34px;
+$telephone-offset-x: -124px;
+$telephone-offset-y: -34px;
+$telephone-width: 26px;
+$telephone-height: 26px;
+$telephone-total-width: 177px;
+$telephone-total-height: 171px;
+$telephone-image: '../images/sprites/sprite.png';
+$telephone: (124px, 34px, -124px, -34px, 26px, 26px, 177px, 171px, '../images/sprites/sprite.png', 'telephone', );
+$appointment-2x-name: 'appointment@2x';
+$appointment-2x-x: 128px;
+$appointment-2x-y: 0px;
+$appointment-2x-offset-x: -128px;
+$appointment-2x-offset-y: 0px;
+$appointment-2x-width: 104px;
+$appointment-2x-height: 104px;
+$appointment-2x-total-width: 354px;
+$appointment-2x-total-height: 342px;
+$appointment-2x-image: '../images/sprites/sprite@2x.png';
+$appointment-2x: (128px, 0px, -128px, 0px, 104px, 104px, 354px, 342px, '../images/sprites/sprite@2x.png', 'appointment@2x', );
+$auto-sale-2x-name: 'auto-sale@2x';
+$auto-sale-2x-x: 100px;
+$auto-sale-2x-y: 120px;
+$auto-sale-2x-offset-x: -100px;
+$auto-sale-2x-offset-y: -120px;
+$auto-sale-2x-width: 104px;
+$auto-sale-2x-height: 82px;
+$auto-sale-2x-total-width: 354px;
+$auto-sale-2x-total-height: 342px;
+$auto-sale-2x-image: '../images/sprites/sprite@2x.png';
+$auto-sale-2x: (100px, 120px, -100px, -120px, 104px, 82px, 354px, 342px, '../images/sprites/sprite@2x.png', 'auto-sale@2x', );
+$automat-2x-name: 'automat@2x';
+$automat-2x-x: 316px;
+$automat-2x-y: 68px;
+$automat-2x-offset-x: -316px;
+$automat-2x-offset-y: -68px;
+$automat-2x-width: 36px;
+$automat-2x-height: 44px;
+$automat-2x-total-width: 354px;
+$automat-2x-total-height: 342px;
+$automat-2x-image: '../images/sprites/sprite@2x.png';
+$automat-2x: (316px, 68px, -316px, -68px, 36px, 44px, 354px, 342px, '../images/sprites/sprite@2x.png', 'automat@2x', );
+$car-door-2x-name: 'car-door@2x';
+$car-door-2x-x: 60px;
+$car-door-2x-y: 298px;
+$car-door-2x-offset-x: -60px;
+$car-door-2x-offset-y: -298px;
+$car-door-2x-width: 42px;
+$car-door-2x-height: 44px;
+$car-door-2x-total-width: 354px;
+$car-door-2x-total-height: 342px;
+$car-door-2x-image: '../images/sprites/sprite@2x.png';
+$car-door-2x: (60px, 298px, -60px, -298px, 42px, 44px, 354px, 342px, '../images/sprites/sprite@2x.png', 'car-door@2x', );
+$clock-2x-name: 'clock@2x';
+$clock-2x-x: 248px;
+$clock-2x-y: 0px;
+$clock-2x-offset-x: -248px;
+$clock-2x-offset-y: 0px;
+$clock-2x-width: 52px;
+$clock-2x-height: 52px;
+$clock-2x-total-width: 354px;
+$clock-2x-total-height: 342px;
+$clock-2x-image: '../images/sprites/sprite@2x.png';
+$clock-2x: (248px, 0px, -248px, 0px, 52px, 52px, 354px, 342px, '../images/sprites/sprite@2x.png', 'clock@2x', );
+$delivery-man-2x-name: 'delivery-man@2x';
+$delivery-man-2x-x: 0px;
+$delivery-man-2x-y: 120px;
+$delivery-man-2x-offset-x: 0px;
+$delivery-man-2x-offset-y: -120px;
+$delivery-man-2x-width: 84px;
+$delivery-man-2x-height: 104px;
+$delivery-man-2x-total-width: 354px;
+$delivery-man-2x-total-height: 342px;
+$delivery-man-2x-image: '../images/sprites/sprite@2x.png';
+$delivery-man-2x: (0px, 120px, 0px, -120px, 84px, 104px, 354px, 342px, '../images/sprites/sprite@2x.png', 'delivery-man@2x', );
+$envelope-2x-name: 'envelope@2x';
+$envelope-2x-x: 76px;
+$envelope-2x-y: 240px;
+$envelope-2x-offset-x: -76px;
+$envelope-2x-offset-y: -240px;
+$envelope-2x-width: 52px;
+$envelope-2x-height: 32px;
+$envelope-2x-total-width: 354px;
+$envelope-2x-total-height: 342px;
+$envelope-2x-image: '../images/sprites/sprite@2x.png';
+$envelope-2x: (76px, 240px, -76px, -240px, 52px, 32px, 354px, 342px, '../images/sprites/sprite@2x.png', 'envelope@2x', );
+$mechanic-2x-name: 'mechanic@2x';
+$mechanic-2x-x: 248px;
+$mechanic-2x-y: 136px;
+$mechanic-2x-offset-x: -248px;
+$mechanic-2x-offset-y: -136px;
+$mechanic-2x-width: 50px;
+$mechanic-2x-height: 44px;
+$mechanic-2x-total-width: 354px;
+$mechanic-2x-total-height: 342px;
+$mechanic-2x-image: '../images/sprites/sprite@2x.png';
+$mechanic-2x: (248px, 136px, -248px, -136px, 50px, 44px, 354px, 342px, '../images/sprites/sprite@2x.png', 'mechanic@2x', );
+$percentage-2x-name: 'percentage@2x';
+$percentage-2x-x: 0px;
+$percentage-2x-y: 0px;
+$percentage-2x-offset-x: 0px;
+$percentage-2x-offset-y: 0px;
+$percentage-2x-width: 112px;
+$percentage-2x-height: 104px;
+$percentage-2x-total-width: 354px;
+$percentage-2x-total-height: 342px;
+$percentage-2x-image: '../images/sprites/sprite@2x.png';
+$percentage-2x: (0px, 0px, 0px, 0px, 112px, 104px, 354px, 342px, '../images/sprites/sprite@2x.png', 'percentage@2x', );
+$placeholder-2x-name: 'placeholder@2x';
+$placeholder-2x-x: 316px;
+$placeholder-2x-y: 0px;
+$placeholder-2x-offset-x: -316px;
+$placeholder-2x-offset-y: 0px;
+$placeholder-2x-width: 38px;
+$placeholder-2x-height: 52px;
+$placeholder-2x-total-width: 354px;
+$placeholder-2x-total-height: 342px;
+$placeholder-2x-image: '../images/sprites/sprite@2x.png';
+$placeholder-2x: (316px, 0px, -316px, 0px, 38px, 52px, 354px, 342px, '../images/sprites/sprite@2x.png', 'placeholder@2x', );
+$places-2x-name: 'places@2x';
+$places-2x-x: 0px;
+$places-2x-y: 240px;
+$places-2x-offset-x: 0px;
+$places-2x-offset-y: -240px;
+$places-2x-width: 60px;
+$places-2x-height: 42px;
+$places-2x-total-width: 354px;
+$places-2x-total-height: 342px;
+$places-2x-image: '../images/sprites/sprite@2x.png';
+$places-2x: (0px, 240px, 0px, -240px, 60px, 42px, 354px, 342px, '../images/sprites/sprite@2x.png', 'places@2x', );
+$telephone-red-2x-name: 'telephone-red@2x';
+$telephone-red-2x-x: 0px;
+$telephone-red-2x-y: 298px;
+$telephone-red-2x-offset-x: 0px;
+$telephone-red-2x-offset-y: -298px;
+$telephone-red-2x-width: 44px;
+$telephone-red-2x-height: 44px;
+$telephone-red-2x-total-width: 354px;
+$telephone-red-2x-total-height: 342px;
+$telephone-red-2x-image: '../images/sprites/sprite@2x.png';
+$telephone-red-2x: (0px, 298px, 0px, -298px, 44px, 44px, 354px, 342px, '../images/sprites/sprite@2x.png', 'telephone-red@2x', );
+$telephone-2x-name: 'telephone@2x';
+$telephone-2x-x: 248px;
+$telephone-2x-y: 68px;
+$telephone-2x-offset-x: -248px;
+$telephone-2x-offset-y: -68px;
+$telephone-2x-width: 52px;
+$telephone-2x-height: 52px;
+$telephone-2x-total-width: 354px;
+$telephone-2x-total-height: 342px;
+$telephone-2x-image: '../images/sprites/sprite@2x.png';
+$telephone-2x: (248px, 68px, -248px, -68px, 52px, 52px, 354px, 342px, '../images/sprites/sprite@2x.png', 'telephone@2x', );
+$spritesheet-width: 177px;
+$spritesheet-height: 171px;
+$spritesheet-image: '../images/sprites/sprite.png';
+$spritesheet-sprites: ($appointment, $auto-sale, $automat, $car-door, $clock, $delivery-man, $envelope, $mechanic, $percentage, $placeholder, $places, $telephone-red, $telephone, );
+$spritesheet: (177px, 171px, '../images/sprites/sprite.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 354px;
+$retina-spritesheet-height: 342px;
+$retina-spritesheet-image: '../images/sprites/sprite@2x.png';
+$retina-spritesheet-sprites: ($appointment-2x, $auto-sale-2x, $automat-2x, $car-door-2x, $clock-2x, $delivery-man-2x, $envelope-2x, $mechanic-2x, $percentage-2x, $placeholder-2x, $places-2x, $telephone-red-2x, $telephone-2x, );
+$retina-spritesheet: (354px, 342px, '../images/sprites/sprite@2x.png', $retina-spritesheet-sprites, );
+
+// These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+//
+// The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+$appointment-group-name: 'appointment';
+$appointment-group: ('appointment', $appointment, $appointment-2x, );
+$auto-sale-group-name: 'auto-sale';
+$auto-sale-group: ('auto-sale', $auto-sale, $auto-sale-2x, );
+$automat-group-name: 'automat';
+$automat-group: ('automat', $automat, $automat-2x, );
+$car-door-group-name: 'car-door';
+$car-door-group: ('car-door', $car-door, $car-door-2x, );
+$clock-group-name: 'clock';
+$clock-group: ('clock', $clock, $clock-2x, );
+$delivery-man-group-name: 'delivery-man';
+$delivery-man-group: ('delivery-man', $delivery-man, $delivery-man-2x, );
+$envelope-group-name: 'envelope';
+$envelope-group: ('envelope', $envelope, $envelope-2x, );
+$mechanic-group-name: 'mechanic';
+$mechanic-group: ('mechanic', $mechanic, $mechanic-2x, );
+$percentage-group-name: 'percentage';
+$percentage-group: ('percentage', $percentage, $percentage-2x, );
+$placeholder-group-name: 'placeholder';
+$placeholder-group: ('placeholder', $placeholder, $placeholder-2x, );
+$places-group-name: 'places';
+$places-group: ('places', $places, $places-2x, );
+$telephone-red-group-name: 'telephone-red';
+$telephone-red-group: ('telephone-red', $telephone-red, $telephone-red-2x, );
+$telephone-group-name: 'telephone';
+$telephone-group: ('telephone', $telephone, $telephone-2x, );
+$retina-groups: ($appointment-group, $auto-sale-group, $automat-group, $car-door-group, $clock-group, $delivery-man-group, $envelope-group, $mechanic-group, $percentage-group, $placeholder-group, $places-group, $telephone-red-group, $telephone-group, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+//   It should be used with a "retina group" variable.
+//
+// The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+//
+// $icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+//
+// .icon-home {
+//   @include retina-sprite($icon-home-group);
+// }
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+// The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+//   This yields the same output as CSS retina template but can be overridden in SCSS
+//
+// @include retina-sprites($retina-groups);
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}

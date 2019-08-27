@@ -1,0 +1,26 @@
+.map {
+  width: calc(100% + 20px);
+  height: 300px;
+  margin: 0 auto;
+  margin-left: -10px;
+
+
+  outline: 1px solid lightgreen;
+}
+
+@media (min-width: $mobileM) {
+  .map {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: $desktopXS) {
+  .map {
+    width: auto;
+    height: 440px;
+    margin: 0;
+    
+    outline: 1px solid lightgreen;
+  }
+}

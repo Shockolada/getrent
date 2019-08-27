@@ -1,0 +1,43 @@
+{
+  "name": "project-template",
+  "version": "1.0.0",
+  "description": "Template for quick start",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Shockolada/new-project.git"
+  },
+  "author": "Shockolada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shockolada/new-project/issues"
+  },
+  "homepage": "https://github.com/Shockolada/new-project#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "browser-sync": "^2.26.5",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-svgstore": "^7.0.1",
+    "gulp.spritesmith": "^6.10.1",
+    "merge-stream": "^2.0.0",
+    "posthtml-include": "^1.2.0",
+    "run-sequence": "^2.2.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE 10"
+  ]
+}

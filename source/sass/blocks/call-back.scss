@@ -1,0 +1,63 @@
+.call-back {
+  padding: 40px 10px;
+  background-color: $color-bg-grey;
+}
+
+.call-back p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: $color-text-grey;
+}
+
+.call-back__form input {
+  width: 100%;
+  padding: 13px 15px;
+  border: none;
+  font-size: 18px;
+  font-weight: 100;
+
+}
+
+.call-back__form button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+  background-color: $color-accent;
+
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.call-back__form button:hover {
+  background-color: $color-accent-hover;
+}
+
+@media (min-width: $tablet) {
+  .call-back {
+    display: flex;
+    align-items: center;
+    padding: 30px 70px;
+  }
+
+  .call-back p {
+    display: inline-block;
+    margin-right: auto;
+    font-size: 24px;
+  }
+
+  .call-back__form {
+    display: flex;
+    width: 65%;
+  }
+
+  .call-back__form button {
+    max-width: 270px;
+  }
+}
+

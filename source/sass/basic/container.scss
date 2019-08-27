@@ -1,0 +1,16 @@
+/* CONTAINER */
+
+.container {
+  min-width: $mobileS;
+  max-width: $desktop;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  box-sizing: border-box;
+}
+
+@media (min-width: $mobileM) {
+  .container {
+    padding: 0 15px;
+  }
+}

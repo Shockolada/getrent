@@ -1,0 +1,74 @@
+.select__item {
+  position: relative;
+}
+
+.select {
+  width: 100%;
+  padding: 15px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  font-weight: 100;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+  box-sizing: border-box;
+  margin: 0;
+  height: 50px;
+  border: 1px solid $input-border;
+  color: $text-color;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  background-color: transparent;
+}
+
+.select:focus {
+  outline: 1px solid $color-accent;
+  border: 1px solid $color-accent;
+}
+
+.select__current {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  font-weight: 100;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+  margin: 0;
+  height: 50px;
+  color: transparent;
+
+  background-color: transparent;
+}
+
+.select option {
+  font-weight: 100;
+  line-height: 1.4;
+}
+
+.select__item:hover select {
+  opacity: 0;
+}
+
+.select__item:hover .select__current {
+  color: #ffffff;
+  background-color: $color-accent;
+}
+
+.select__icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  fill: $btn-color;
+}
+
+.select__item:hover .select__icon {
+  fill: #ffffff;
+}

@@ -1,0 +1,31 @@
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.page-footer__wrap {
+  width: calc(100% + 20px);
+  margin-left: -10px;
+  padding: 40px 30px;
+  background-color: #000000;
+}
+
+.page-footer__logo {
+  width: 40%;
+  max-width: 124px;
+  line-height: 0;
+}
+
+@media (min-width: $desktopXS) {
+
+  .page-footer__wrap {
+    padding: 16px 0;
+  }
+
+  .page-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

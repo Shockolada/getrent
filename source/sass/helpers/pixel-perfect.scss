@@ -1,0 +1,42 @@
+// // TEMPORALLY FOR PIXEL PERFECT
+
+// html {
+//   position: relative;
+
+//   &::after {
+//     content: "";
+
+//     position: absolute;
+//     top: 0;
+//     left: 50%;
+//     z-index: -100;
+//     transform: translateX(-50%);
+
+//     display: block;
+//     width: 320px;
+//     min-height: 8500px;
+//     opacity: 0.5;
+
+//     // background: url("../template/320.jpg") no-repeat top center;
+//     // background: url("../mob.png") no-repeat top center;
+//     background-size: 320px;
+//   }
+// }
+
+// @media (min-width: $tablet) {
+//   html {
+//     min-height: 0;
+//   }
+// }
+
+// @media(min-width: $desktop) {
+
+//   html {
+//     &::after {
+//       min-height: 6000px;
+//       width: $desktop;
+//       // background-image: url("../template/1170.jpg");
+//       background-size: 1920px;
+//     }
+//   }
+// }

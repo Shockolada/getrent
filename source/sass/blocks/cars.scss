@@ -1,0 +1,47 @@
+.cars {
+  margin-bottom: 0;
+}
+
+.cars__specific {
+  margin-bottom: 10px;
+}
+
+.cars__specification:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.cars__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cars__item {
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet) {
+  .cars {
+    margin-bottom: 60px;
+  }
+
+  .cars__specific {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+  }
+
+  .cars__specification {
+    width: 49%;
+  }
+}
+
+
+@media (min-width: $desktopXS) {
+  .cars__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

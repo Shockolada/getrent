@@ -1,0 +1,70 @@
+.burger-btn {
+  position: relative;
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+  margin-top: -2px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.burger-btn span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #000000;
+
+  transition: all 0.2s linear;
+
+  &::before,
+  &::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 30px;
+    height: 3px;
+
+    background-color: #000000;
+    transition: transform 0.2s linear;
+  }
+
+  &::before {
+    top: 8px;
+  }
+
+  &::after {
+    bottom: 8px;
+  }
+}
+
+.burger-btn--active span {
+  height: 0;
+
+  &::before,
+  &::after {
+    top: -1px;
+    background-color: #a4a4a4;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
+
+@media screen and (min-width: $desktopXS) {
+  .burger-btn {
+    display: none;
+  }
+}

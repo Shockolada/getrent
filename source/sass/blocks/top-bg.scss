@@ -1,0 +1,14 @@
+.top-bg {
+  width: 100%;
+  background-image: url("../img/bg-top-320.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet) {
+  .top-bg {
+    width: 100%;
+    background-image: url("../img/bg-top-1170.jpg");
+    background-size: cover;
+  }}
